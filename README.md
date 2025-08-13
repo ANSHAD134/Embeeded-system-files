@@ -1,2 +1,2 @@
 # Embeeded-system-files
-Embedded system projecy
+Embedded system project
