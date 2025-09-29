@@ -1,0 +1,53 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega328-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-264,8" rotation="0" hflip="1" vflip="1" label="mega328-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../AVR/Modular_delay (Blink 5 LED)/Modular_delay (Blink 5 LED)/Debug/Modular_delay (Blink 5 LED).hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,72" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,40" rotation="0" hflip="1" vflip="1" label="Led-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,8" rotation="0" hflip="1" vflip="1" label="Led-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,112" rotation="0" hflip="1" vflip="1" label="Led-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,160" rotation="0" hflip="1" vflip="1" label="Led-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,220" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="-24,40" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="-24,72" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-24,112" />
+
+<item itemtype="Node" CircId="Node-12" mainComp="false" Pos="-24,160" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Led-6-lPin" endpinid="mega328-1-PORTB1" pointList="-152,160,-204,160,-204,120,-224,120" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="mega328-1-PORTB2" endpinid="Led-5-lPin" pointList="-224,112,-152,112" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="mega328-1-PORTB3" endpinid="Led-2-lPin" pointList="-224,104,-164,104,-164,72,-152,72" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="mega328-1-PORTB4" endpinid="Led-3-lPin" pointList="-224,96,-180,96,-180,40,-152,40" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="mega328-1-PORTB5" endpinid="Led-4-lPin" pointList="-224,88,-192,88,-192,8,-152,8" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Led-3-rPin" endpinid="Node-8-1" pointList="-120,40,-24,40" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Led-4-rPin" endpinid="Node-8-0" pointList="-120,8,-24,8,-24,40" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Led-2-rPin" endpinid="Node-9-1" pointList="-120,72,-24,72" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Node-8-2" endpinid="Node-9-0" pointList="-24,40,-24,72" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Led-5-rPin" endpinid="Node-11-1" pointList="-120,112,-24,112" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Node-9-2" endpinid="Node-11-0" pointList="-24,72,-24,112" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Led-6-rPin" endpinid="Node-12-1" pointList="-120,160,-24,160" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-11-2" endpinid="Node-12-0" pointList="-24,112,-24,160" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Node-12-2" endpinid="Ground-7-Gnd" pointList="-24,160,-24,204" />
+
+</circuit>
