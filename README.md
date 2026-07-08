@@ -33,19 +33,7 @@ This repository contains:
 - **Hardware**: AVR (ATmega series), Arduino-compatible boards
 - **Build System**: Makefile, avr-gcc
 - **Tools/IDEs**: Arduino IDE, Microchip Studio / Atmel Studio, VS Code, GCC
-- **Simulation**: Proteus, Tinkercad, or Serial Monitor tools
-
----
-
-## 🖼️ Preview
-
-> Add real board/circuit photos or code screenshots here so visitors can see the projects at a glance.
-> Create an `images/` folder in the repo, drop your photos there, and reference them like this:
-
-```markdown
-![AVR Setup](images/avr-setup.jpg)
-![Program Output](images/serial-output.png)
-```
+- **Simulation**: Simulide, Tinkercad, or Serial Monitor tools
 
 ---
 
